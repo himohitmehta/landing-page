@@ -1,6 +1,6 @@
 # Landing Page
 
-landing page template made with React hosted on firebase.
+Landing page template made with React hosted on firebase.
 
 ## Features
 
