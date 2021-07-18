@@ -1,58 +1,57 @@
 .container {
-	padding: 10px;
-	position: relative;
-	height: inherit;
+  padding: 10px;
+  position: relative;
+  height: inherit;
 }
 
 .image1 {
-	position: absolute;
-	top: 30%;
-	left: 10%;
-	width: 176px;
-	height: 238px;
-	border-radius: 26px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 176px;
+  height: 238px;
+  border-radius: 26px;
 }
 .image2 {
-	position: absolute;
-	bottom: -25%;
-	left: 45%;
-	width: 168px;
-	height: 214px;
-	border-radius: 20px;
+  position: absolute;
+  bottom: -25%;
+  left: 45%;
+  width: 168px;
+  height: 214px;
+  border-radius: 20px;
 }
 .image3 {
-	position: absolute;
-	top: 20%;
-	right: 30%;
-	width: 127px;
-	height: 168px;
-	border-radius: 20px;
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  width: 127px;
+  height: 168px;
+  border-radius: 20px;
 }
-
 
 @media only screen and (max-width: 1000px) {
-    .image1 {
-        top:16px;
-        left: 120px;
-    }
-    .image2 {
-        bottom: 25px;
-    }
-    .image3 {
-        top:3px;
-        right: 125px;
-    }
+  .image1 {
+    top: 16px;
+    left: 120px;
+  }
+  .image2 {
+    bottom: 25px;
+  }
+  .image3 {
+    top: 3px;
+    right: 125px;
+  }
 }
 @media only screen and (max-width: 600px) {
-    .image1 {
-        top:16px;
-        left: 12px;
-    }
-    .image2 {
-        bottom: 25px;
-    }
-    .image3 {
-        top:3px;
-        right: 25px;
-    }
+  .image1 {
+    top: 16px;
+    left: 12px;
+  }
+  .image2 {
+    bottom: 25px;
+  }
+  .image3 {
+    top: 3px;
+    right: 25px;
+  }
 }

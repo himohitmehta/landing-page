@@ -12,40 +12,40 @@ import ImagesGroup from "./components/ImagesGroup";
 import SideNavDots from "./components/SideNavDots";
 
 function App() {
-	return (
-		<div className="app">
-			<Header />
-			<SideNavDots />
-		
-			<div style={{ paddingTop: "128px" }}>
-				<FeaturedText />
-				<MainContent id="01" component={ImagesGroup} />
-				<MainContent
-					id="02"
-					poly
-					imgSrc={GirlUsinglaptop}
-					reverse="row-reverse"
-					bgPos="right"
-				/>
-				<MainContent id="03" imgSrc={Profile} />
-				<MainContent
-					id="04"
-					reverse="row-reverse"
-					bgPos="right"
-					component={ImagesGroup}
-				/>
-				<MainContent id="05" imgSrc={PeopleGroup} />
-				<MainContent
-					id="06"
-					imgSrc={PeopleRunning}
-					reverse="row-reverse"
-					bgPos="right"
-				/>
-			</div>
-			<SubscribeUs />
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="app">
+      <Header />
+      <SideNavDots />
+
+      <div style={{ paddingTop: "128px" }}>
+        <FeaturedText />
+        <MainContent id="01" component={ImagesGroup} />
+        <MainContent
+          id="02"
+          poly
+          imgSrc={GirlUsinglaptop}
+          reverse="row-reverse"
+          bgPos="right"
+        />
+        <MainContent id="03" imgSrc={Profile} />
+        <MainContent
+          id="04"
+          reverse="row-reverse"
+          bgPos="right"
+          component={ImagesGroup}
+        />
+        <MainContent id="05" imgSrc={PeopleGroup} />
+        <MainContent
+          id="06"
+          imgSrc={PeopleRunning}
+          reverse="row-reverse"
+          bgPos="right"
+        />
+      </div>
+      <SubscribeUs />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

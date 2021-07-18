@@ -1,78 +1,76 @@
 .header {
-	background-color: black;
-	opacity: 0.8;
-	/* color:wheat; */
-	position: fixed;
-	width: 100%;
-	z-index: 99;
-	/* background: padding-box; */
+  background-color: black;
+  opacity: 0.8;
+  /* color:wheat; */
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  /* background: padding-box; */
 }
 
 .nav {
-	max-width: 1440px;
-	margin: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex: 1;
-	padding: 10px;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 10px;
 }
 
 .logo {
-	text-align: left;
-	font: normal normal medium 24px/29px Montserrat;
-	letter-spacing: 0px;
-	color: #ffffff;
-	opacity: 1;
+  text-align: left;
+  font: normal normal medium 24px/29px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 }
 .grow {
-	flex: 1;
+  flex: 1;
 }
 .otherLinks {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	/* flex: 0.4; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex: 0.4; */
 }
 .link {
-	text-align: left;
-	font: normal normal medium 20px/72px Inter;
-	letter-spacing: 0px;
-	color: #ffffff;
-	opacity: 1;
-	margin-right: 32px;
+  text-align: left;
+  font: normal normal medium 20px/72px Inter;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-right: 32px;
 }
 
 .link:hover {
-	text-align: left;
-	font: normal normal medium 20px/72px Inter;
-	letter-spacing: 0px;
-	color: #afd7f2;
-	opacity: 0.9;
+  text-align: left;
+  font: normal normal medium 20px/72px Inter;
+  letter-spacing: 0px;
+  color: #afd7f2;
+  opacity: 0.9;
 }
 
 .button {
-	background: transparent linear-gradient(90deg, #4669b2 0%, #5985c4 100%) 0%
-		0% no-repeat padding-box;
-	border-radius: 6px;
-	color: white;
-	width: 186px;
-	height: 56px;
-	cursor: pointer;
+  background: transparent linear-gradient(90deg, #4669b2 0%, #5985c4 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 6px;
+  color: white;
+  width: 186px;
+  height: 56px;
+  cursor: pointer;
 }
 
 .button:hover {
-	background: transparent;
-	border: 1px solid white;
+  background: transparent;
+  border: 1px solid white;
 }
 
-
 @media only screen and (max-width: 600px) {
-	.link {
-		margin-right: 8px;
-	}
-	.button {
-		width: 100px;
-		
-	}
+  .link {
+    margin-right: 8px;
+  }
+  .button {
+    width: 100px;
+  }
 }

@@ -1,28 +1,28 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1440px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  margin: auto;
 }
 
 .copyright {
-    margin-right: 32px;
+  margin-right: 32px;
 }
 
 .socialLinks {
-    margin-left: 16px;
+  margin-left: 16px;
 }
 
 .icon {
-    margin: 10px;
+  margin: 10px;
 }
 
-@media only screen and (max-width : 600px) {
-    .icon {
-        margin: 4px;
-    }
+@media only screen and (max-width: 600px) {
+  .icon {
+    margin: 4px;
+  }
 }
