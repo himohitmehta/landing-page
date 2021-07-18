@@ -2,13 +2,17 @@ import styles from "./MainContent.module.css";
 import React from "react";
 import curve1 from "../../assets/curve-1.png"
 import curve2 from "../../assets/curve-2.png"
+import polygon from "../../assets/polygon.png"
 
-
-const MainContent = ({id, component: Component, imgSrc, reverse, bgPos }) => {
+const MainContent = ({id, component: Component, imgSrc, reverse, bgPos, poly }) => {
 	return (
 		<div id={id} className={styles.container} style={{flexDirection:`${reverse}`}}>
 			<div className={styles.textContainer}>
-				<h1 className={styles.number} >{id}</h1>
+			{
+				poly && 
+				<img style={{marginLeft:'128px'}} src={polygon} alt="" />
+				
+			}	<h1 className={styles.number} >{id}</h1>
 				<h2 className={styles.title}>
 					Lorem Ipsum is simply dummy text
 				</h2>

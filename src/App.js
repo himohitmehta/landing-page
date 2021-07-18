@@ -9,7 +9,6 @@ import PeopleGroup from "./assets/people-group.png";
 import PeopleRunning from "./assets/people-running.png";
 import Footer from "./components/Footer";
 import ImagesGroup from "./components/ImagesGroup";
-import {ReactComponent as SideNav} from "./assets/side-nav.svg"
 import SideNavDots from "./components/SideNavDots";
 
 function App() {
@@ -17,16 +16,13 @@ function App() {
 		<div className="app">
 			<Header />
 			<SideNavDots />
-			{/* <div className="side-nav">
-<SideNav />
-
-			</div> */}
-
+		
 			<div style={{ paddingTop: "128px" }}>
 				<FeaturedText />
 				<MainContent id="01" component={ImagesGroup} />
 				<MainContent
 					id="02"
+					poly
 					imgSrc={GirlUsinglaptop}
 					reverse="row-reverse"
 					bgPos="right"

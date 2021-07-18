@@ -10,8 +10,16 @@
 .sidenavContainer {
     z-index: 10;
     position: absolute;
-    top: 30%;
-    right: 10%;
+    top: 20%;
+    right: 5%;
     position: fixed;
   
 }
+
+
+@media only screen and (max-width: 900px) { 
+
+    .sidenavContainer {
+      right: 20px;
+    }
+    }

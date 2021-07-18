@@ -20,9 +20,3 @@ a {
 } */
 
 
-@media only screen and (max-width: 800px) { 
-
-.side-nav {
-  right: 5%;
-}
-}
