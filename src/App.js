@@ -10,14 +10,17 @@ import PeopleRunning from "./assets/people-running.png";
 import Footer from "./components/Footer";
 import ImagesGroup from "./components/ImagesGroup";
 import {ReactComponent as SideNav} from "./assets/side-nav.svg"
+import SideNavDots from "./components/SideNavDots";
 
 function App() {
 	return (
 		<div className="app">
 			<Header />
-			<div className="side-nav">
+			<SideNavDots />
+			{/* <div className="side-nav">
 <SideNav />
-			</div>
+
+			</div> */}
 
 			<div style={{ paddingTop: "128px" }}>
 				<FeaturedText />

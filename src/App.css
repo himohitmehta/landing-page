@@ -11,9 +11,18 @@ a {
   margin-top: 64px;
 }
 
-.side-nav {
+/* .side-nav {
+  z-index: 10;
   position: absolute;
   top: 30%;
-  left: 90%;
+  right: 10%;
   position: fixed;
+} */
+
+
+@media only screen and (max-width: 800px) { 
+
+.side-nav {
+  right: 5%;
+}
 }

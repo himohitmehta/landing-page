@@ -6,9 +6,9 @@ import curve2 from "../../assets/curve-2.png"
 
 const MainContent = ({id, component: Component, imgSrc, reverse, bgPos }) => {
 	return (
-		<div className={styles.container} style={{flexDirection:`${reverse}`}}>
+		<div id={id} className={styles.container} style={{flexDirection:`${reverse}`}}>
 			<div className={styles.textContainer}>
-				<h1 className={styles.number} id={id}>{id}</h1>
+				<h1 className={styles.number} >{id}</h1>
 				<h2 className={styles.title}>
 					Lorem Ipsum is simply dummy text
 				</h2>
