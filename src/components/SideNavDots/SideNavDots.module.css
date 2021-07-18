@@ -20,25 +20,21 @@
 	fill: #6f6f6f;
 }
 
-.d:active {
-	fill: #e3e4f1;
-	opacity: 0.278;
-}
-.f:active {
-	fill: #e3e4f1;
-	opacity: 0.278;
-}
-
 .sidenavContainer {
 	z-index: 10;
 	position: absolute;
 	top: 20%;
 	right: 3%;
 	position: fixed;
+    height: 550px;
+    width: 36px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
 	.sidenavContainer {
-		right: 20px;
+		right: 5px;
+        height: 400px;
+        width: 18px;
 	}
+
 }

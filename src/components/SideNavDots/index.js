@@ -9,8 +9,8 @@ const SideNavDots = () => {
 		<div className={styles.sidenavContainer}>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				width="36"
-				height="550"
+				// width="36"
+				// height="550"
 				viewBox="0 0 36 550"
 			>
 				<g transform="translate(-109 -362)">
