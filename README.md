@@ -8,4 +8,5 @@ A simple Landing page Template
 - navigate using Side Navigation Dots(Polygon) click and go to the part of the page
 
 
-Live Version: [Live](https://react-landing-web.web.app/)
+Live Version: [Check out here](https://react-landing-web.web.app/)
+
